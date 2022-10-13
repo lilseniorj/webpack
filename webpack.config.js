@@ -1,6 +1,4 @@
 const path = require('path');
-const htmlWebpackPlugin = require('html-webpack-plugin');
-const { resolve } = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -16,14 +14,14 @@ module.exports = {
     rules: [
       {
         test: /\.js?$/,
-        exclude: /node_module/,
+        exclude: /node_modules/,
         use: {
           loader: 'babel-loader'
         }
       }
     ]
   },
-  puglins: [
+  plugins: [
     new HtmlWebpackPlugin({
       inject: true,
       template: './public/index.html',
