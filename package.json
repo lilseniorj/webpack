@@ -19,6 +19,7 @@
     "@babel/core": "^7.19.3",
     "babel-loader": "^8.2.5",
     "copy-webpack-plugin": "^11.0.0",
+    "gh": "^2.8.9",
     "html-webpack-plugin": "^5.5.0",
     "webpack-dev-server": "^4.11.1"
   }
