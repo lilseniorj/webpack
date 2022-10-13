@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development",
-    "deploy": "gh-pages -d dist"
+    "start": "webpack-dev-server --open --mode development"
   },
   "keywords": [],
   "author": "lilSeniorj <jesusvarguer18@gmail.com>",
